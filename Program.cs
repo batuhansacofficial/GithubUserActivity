@@ -27,6 +27,7 @@ try
         foreach (var activity in filteredActivities)
         {
             Console.WriteLine($"{activity.EventType} in {activity.Repo.Name}");
+            Console.WriteLine($"  Event Date: {activity.CreatedAt}");
         }
     }
     else
@@ -34,6 +35,7 @@ try
         foreach (var activity in userActivity)
         {
             Console.WriteLine($"{activity.EventType} in {activity.Repo.Name}");
+            Console.WriteLine($"  Event Date: {activity.CreatedAt}");
         }
     }
 }

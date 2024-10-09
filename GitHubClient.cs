@@ -42,7 +42,11 @@ namespace GithubUserActivity
                 var jsonResponse = response.Content.ReadAsStringAsync().Result;
                 var activities = JsonSerializer.Deserialize<List<UserActivity>>(jsonResponse);
 
-                return activities;
+                var distinctActivities = activities
+                    .Distinct(new UserActivityComparer())  // Using custom comparer to remove duplicates
+                    .ToList();
+
+                return distinctActivities;
             }
             catch (Exception ex)
             {
