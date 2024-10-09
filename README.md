@@ -2,6 +2,7 @@
 
 ## Description
 This project allows you to fetch and display the recent GitHub activity of any user from the command line. It uses GitHub's REST API to pull the user's events (e.g., pushes, forks, issues, etc.) and shows them in a user-friendly format.
+Project Idea: https://roadmap.sh/projects/github-user-activity
 
 ## Requirements
 - **.NET SDK (version)**: 8.0.400
@@ -40,10 +41,8 @@ dotnet run <GitHub-username> <event-type>
 ```bash
 Error: User 'invalidusername' not found.
 ```
-- **If the GitHub API rate limit is exceeded, you will get:**:
+- **If the GitHub API rate limit is exceeded, you will get**:
 ```bash
 GitHub API rate limit exceeded. Please try again later.
 No activity found or an error occurred.
 ```
-
-https://roadmap.sh/projects/github-user-activity
