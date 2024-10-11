@@ -1,10 +1,12 @@
 # GitHub User Activity
 
 ## Description
+
 This project allows you to fetch and display the recent GitHub activity of any user from the command line. It uses GitHub's REST API to pull the user's events (e.g., pushes, forks, issues, etc.) and shows them in a user-friendly format.<br>
 Project Idea: https://roadmap.sh/projects/github-user-activity
 
 ## Requirements
+
 - **.NET SDK (version)**: 8.0.400
 - **Target Framework**: .NET 8.0 
 - **Visual Studio** or **Visual Studio Code** (optional)
@@ -51,4 +53,5 @@ No activity found or an error occurred.
 ```
 
 ## Contributing
+
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
