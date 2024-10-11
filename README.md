@@ -1,7 +1,7 @@
 # GitHub User Activity
 
 ## Description
-This project allows you to fetch and display the recent GitHub activity of any user from the command line. It uses GitHub's REST API to pull the user's events (e.g., pushes, forks, issues, etc.) and shows them in a user-friendly format.
+This project allows you to fetch and display the recent GitHub activity of any user from the command line. It uses GitHub's REST API to pull the user's events (e.g., pushes, forks, issues, etc.) and shows them in a user-friendly format.<br>
 Project Idea: https://roadmap.sh/projects/github-user-activity
 
 ## Requirements
