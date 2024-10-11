@@ -50,11 +50,5 @@ GitHub API rate limit exceeded. Please try again later.
 No activity found or an error occurred.
 ```
 
-## Project Structure
-
-- `Program.cs`: Entry point of the application, handles command-line arguments.
-- `ExpenseManager.cs`: Manages expenses (add, update, delete, list).
-- `BudgetManager.cs`: Manages monthly budgets (set, view, check if over budget).
-
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
