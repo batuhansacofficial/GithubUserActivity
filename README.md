@@ -27,16 +27,19 @@ cd path/to/GithubUserActivity
 dotnet build
 ```
 
-## Commands
-- **To display the recent activity for a user**:
+## Usage
+
+### Display the Recent Activity For a User
 ```bash
 dotnet run <GitHub-username>
 ```
-- **To filter the results by a specific event type**:
+### Filter the Results by a Specific Event Type
 ```bash
 dotnet run <GitHub-username> <event-type>
 ```
 (`event-type` can be *PushEvent*, *PullRequestEvent*, *IssuesEvent*, *WatchEvent*, *ForkEvent*, *CreateEvent*)
+
+## Error Messages
 - **If the username is invalid, you will receive an error**:
 ```bash
 Error: User 'invalidusername' not found.
@@ -46,3 +49,12 @@ Error: User 'invalidusername' not found.
 GitHub API rate limit exceeded. Please try again later.
 No activity found or an error occurred.
 ```
+
+## Project Structure
+
+- `Program.cs`: Entry point of the application, handles command-line arguments.
+- `ExpenseManager.cs`: Manages expenses (add, update, delete, list).
+- `BudgetManager.cs`: Manages monthly budgets (set, view, check if over budget).
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
